@@ -61,7 +61,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="32dp"
                 android:gravity="center|left"
-                android:text="Jonh Doe"
+                android:text="Messi"
                 android:textColor="#000"
                 android:textSize="25sp"
                 android:transitionName="@string/transition_name" />
@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:text="+01 123456789"
+                android:text="+34"
                 android:textColor="#9f9f9f"
                 android:textSize="20sp"
                 android:transitionName="@string/transition_phone"/>
@@ -113,7 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:text="jonh.doe@example.com"
+                android:text="messi@fcb.com"
                 android:textColor="#9f9f9f"
                 android:textSize="20sp"/>
 

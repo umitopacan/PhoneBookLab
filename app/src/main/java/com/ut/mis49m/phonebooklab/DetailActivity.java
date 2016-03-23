@@ -16,7 +16,7 @@ public class DetailActivity extends AppCompatActivity {
     public final static String POSITION = "pos";
     public Contact mContact;
 
-    TextView name, email;
+    TextView name, email, phone;
     View view;
     LinearLayout back;
 
@@ -28,11 +28,13 @@ public class DetailActivity extends AppCompatActivity {
 
         name = (TextView) findViewById(R.id.name);
         email = (TextView) findViewById(R.id.email);
+        phone = (TextView) findViewById(R.id.phone);
         view = (View) findViewById(R.id.circle);
         back = (LinearLayout) findViewById(R.id.back);
 
         name.setText(mContact.name);
         email.setText(mContact.eMail);
+        phone.setText(mContact.phone);
         GradientDrawable bgShape = (GradientDrawable) view.getBackground();
         bgShape.setColor(Color.parseColor(mContact.color));
 
