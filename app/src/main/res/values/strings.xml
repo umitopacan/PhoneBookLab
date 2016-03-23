@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="transition_name">transition:name</string>
+    <string name="transition_circle">transition:circle</string>
+    <string name="transition_phone">transition:phone</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+
+</resources>
